@@ -13,6 +13,7 @@
         <!--https://developers.google.com/places/android-api/autocomplete-->
         <!--todo trocar a chave da api-->
         <!--https://console.developers.google.com/apis/api/placesandroid.googleapis.com-->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="chave_api"/>
