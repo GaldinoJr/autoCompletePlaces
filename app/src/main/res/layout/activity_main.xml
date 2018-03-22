@@ -7,6 +7,34 @@
         android:layout_height="match_parent"
         tools:context="com.galdino.autocompletplaces.MainActivity">
 
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/state"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_state"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_neighborhood"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/city"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_city"
+            android:layout_marginTop="10dp"/>
 
         <TextView
             android:id="@+id/tv_address"
@@ -15,7 +43,17 @@
             android:hint="@string/address"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_neighborhood"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tv_complement"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/comple"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_address"
+            android:layout_marginTop="10dp"/>
         <TextView
             android:id="@+id/tv_lat"
             android:layout_width="0dp"
@@ -23,7 +61,7 @@
             android:hint="@string/lat"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_address"
+            app:layout_constraintTop_toBottomOf="@+id/tv_complement"
             android:layout_marginTop="10dp"/>
         <TextView
             android:id="@+id/tv_long"

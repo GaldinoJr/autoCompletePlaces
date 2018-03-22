@@ -4,4 +4,7 @@
     <string name="address">Endereço</string>
     <string name="lat">Latitude</string>
     <string name="lon">longitude</string>
+    <string name="comple">Complemento</string>
+    <string name="state">Estado</string>
+    <string name="city">Cidade</string>
 </resources>
