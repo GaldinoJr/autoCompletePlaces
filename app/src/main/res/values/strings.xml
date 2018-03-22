@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoCompletPlaces</string>
+    <string name="search">Procurar endereço</string>
+    <string name="address">Endereço</string>
+    <string name="lat">Latitude</string>
+    <string name="lon">longitude</string>
+</resources>
